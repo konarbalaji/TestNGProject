@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/UDEMY_COURSES/052023_TestNg Framework/TestNGProject/src/main/java/testng/TestNgTest1/GroupTestClass.java">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testng.TestNgTest1.GroupTestClass"></class>
+        </classes>
+    </test>
+</suite>
