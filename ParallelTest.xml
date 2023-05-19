@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="ParallelTest2.java" parallel="methods" thread-count="2">
         <classes>
-            <class name="testng.TestNgTest1.ParallelTest2">
+            <class name="testng.TestNgTest1.parallelization.ParallelTest2">
                 <methods>
                     <include name="googleTest"/>
                     <include name="facebookTest"/>
