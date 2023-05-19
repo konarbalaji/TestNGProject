@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(ListenerOne.class)
+@Listeners(ListenerTwo.class)
 public class Test1 {
 
     @Test
