@@ -1,4 +1,4 @@
-package testng.TestNgTest1;
+package testng.TestNgTest1.priority;
 
 import org.testng.annotations.Test;
 

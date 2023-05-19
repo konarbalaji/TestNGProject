@@ -1,4 +1,4 @@
-package testng.TestNgTest1;
+package testng.TestNgTest1.parallelization;
 
 import org.testng.annotations.Test;
 

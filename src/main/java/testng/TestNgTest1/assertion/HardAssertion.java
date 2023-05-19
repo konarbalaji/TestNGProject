@@ -1,4 +1,4 @@
-package testng.TestNgTest1;
+package testng.TestNgTest1.assertion;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

@@ -1,4 +1,4 @@
-package testng.TestNgTest1;
+package testng.TestNgTest1.parallelization;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,12 +20,7 @@ public class ParallelTest2 {
         String title = driver.getTitle();
         Assert.assertEquals(title, "Google");
 
-        for(int i=1; i<10; i++){
-            driver.navigate().refresh();
-            Thread.sleep(3000);
-        }
-
-        Thread.sleep(20000);
+        Thread.sleep(2000);
         driver.close();
 
     }
@@ -41,12 +36,7 @@ public class ParallelTest2 {
         String title = driver.getTitle();
         Assert.assertEquals(title, "Facebook – log in or sign up");
 
-        for(int i=1; i<10; i++){
-            driver.navigate().refresh();
-            Thread.sleep(3000);
-        }
-
-        Thread.sleep(20000);
+        Thread.sleep(2000);
         driver.close();
 
     }
